@@ -9,3 +9,6 @@ def about(request):
 
 def contact(request):
 	return render(request, "contact.html", {})
+
+def members(request):
+	return render(request, "members.html", {})
