@@ -12,3 +12,6 @@ def contact(request):
 
 def members(request):
 	return render(request, "members.html", {})
+
+def sponsor(request):
+	return render(request, "sponsor.html", {})
