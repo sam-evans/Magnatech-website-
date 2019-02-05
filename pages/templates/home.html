@@ -5,13 +5,17 @@
 
 {% block content%}
 
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to team 3468</h1>
+  <p class="lead">FIRST Robotics team 3468 from West Monroe, Louisiana.</p>
+
+</div> 
 
 <div class="card" style="width: 18rem;">
   <img src="{% static 'images/Roboto.png' %}" class="card-img-top" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Welcome! </h5>
-    <p class="card-text"> We are team 3468.</p>
-    <a href="{% url 'about' %}" class="btn btn-primary">About 3468</a>
+    <h5 class="card-title">We are team 3468! </h5>
+    <a href="{% url 'about' %}" class="btn btn-danger">Learn More</a>
   </div>
 </div>
 

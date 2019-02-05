@@ -15,3 +15,6 @@ def members(request):
 
 def sponsor(request):
 	return render(request, "sponsor.html", {})
+
+def events(request):
+	return render(request, "events.html", {})
