@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home {% endblock %}
+
+{% block content%}
+
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to team 3468</h1>
+  <p class="lead">FIRST Robotics team 3468 from West Monroe, Louisiana.</p>
+  
+<!-- card 1-->
+<div class="card-deck">
+  <div class="card bg-secondary">
+  <img class="card-img-top" src="{% static 'images/Roboto.png'%}" alt="Card image">
+    <div class="card-body text-center">
+      <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="{% url 'about' %}" class="btn btn-light">About Us</a>
+  </div>
+
+    </div>
+  </div>
+
+<!--card 2-->
+  <div class="card bg-secondary">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the second card</p>
+    </div>
+  </div>
+
+<!--card 3-->
+  <div class="card bg-secondary">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the third card</p>
+    </div>
+  </div>
+
+  </div> 
+</div>
+
+
+
+
+{% endblock %}
